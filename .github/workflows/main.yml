@@ -68,6 +68,8 @@ jobs:
                        +morosound                \
                        +boeffla_wl_blocker       \
                        +tcp_westwood             \
+                       +always_permit            \
+                       +350hz                    \
           2>&1 | tee config.info
 
       - name: Install gcc-aarch64-linux-gnu
