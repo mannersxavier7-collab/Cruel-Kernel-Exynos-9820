@@ -68,6 +68,7 @@ jobs:
                        +boeffla_wl_blocker       \
                        +tcp_westwood             \
                        +always_permit            \
+                       +magisk                   \
                        +1000hz
           2>&1 | tee config.info
 
